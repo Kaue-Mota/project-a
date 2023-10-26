@@ -16,6 +16,7 @@
     {"name":"3.Objects","order":6,"path":"folders/3.Objects.yy",},
     {"name":"Ambiente","order":5,"path":"folders/3.Objects/Ambiente.yy",},
     {"name":"Enemys","order":6,"path":"folders/3.Objects/Enemys.yy",},
+    {"name":"enemy_bullets","order":7,"path":"folders/3.Objects/Enemys/enemy_bullets.yy",},
     {"name":"Mummy","order":5,"path":"folders/3.Objects/Enemys/Mummy.yy",},
     {"name":"Slimes","order":4,"path":"folders/3.Objects/Enemys/Slimes.yy",},
     {"name":"Spider","order":6,"path":"folders/3.Objects/Enemys/Spider.yy",},
@@ -34,7 +35,6 @@
     {"name":"Shaders","order":3,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Timelines","order":5,"path":"folders/Timelines.yy",},
-    {"name":"enemy_bullets","order":7,"path":"folders/3.Objects/Enemys/enemy_bullets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_mummy_hurt","order":2,"path":"sprites/spr_mummy_hurt/spr_mummy_hurt.yy",},

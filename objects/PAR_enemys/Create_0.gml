@@ -22,7 +22,7 @@ calc_path_timer = 30;
 //set a timer for when we calc path
 calc_path_delay = irandom(60);
 //escala minima
-scale = 1;
+
 x_scale = 0;
 y_scale = 0;
 rot = 0

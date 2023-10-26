@@ -35,14 +35,13 @@ function calc_entity_move(){
 
 function check_facing(){
 	collision()
-	var _facing = sign(x - xp);
-if _facing != 0 x_scale = _facing;
-	/*if xp --{
-	image_xscale = scale
-	}
-	if xp ++{
-		image_xscale = -scale
-	}*/
+	var target_direction = direction
+if (target_direction < 90 || target_direction > 270){ //facing right
+    image_xscale = 1;
+}
+else{
+    image_xscale = -1;
+}
 }
 
 function check_for_player(){

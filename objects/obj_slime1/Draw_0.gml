@@ -4,14 +4,7 @@ event_inherited()
 //sombra
 draw_sprite(spr_slime_shadow,0,x,bbox_bottom)
 
-//mudar lado da sprite
-if dest_x < x{
-	image_xscale = -scale;
-} else {
-	image_xscale = scale;
-}
-
-draw_sprite_ext(sprite_index, image_index, x, y+z, x_scale, y_scale, rot, c_white, 1);
+draw_sprite_ext(sprite_index, image_index, x, y+z,image_xscale * x_scale, y_scale, rot, c_white, 1);
 
 //FLASH
 if hit_alpha > 0{
