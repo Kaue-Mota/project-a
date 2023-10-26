@@ -1,7 +1,0 @@
-can_fire = true;
-	
-
-
-
-
-

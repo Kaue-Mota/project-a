@@ -1,3 +1,0 @@
-vspd = y
- hspd = x
-
