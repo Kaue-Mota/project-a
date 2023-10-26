@@ -28,7 +28,7 @@ if estado == slime_perseguir{
 
 		//ativando o larm
 		if (ativar_alarm2 == false){
-			alarm[1] = irandom_range(30,120);
+			alarm[1] = irandom_range(30,60);
 			ativar_alarm = false;
 			ativar_alarm2 = true;
 		}
@@ -43,7 +43,7 @@ if estado == slime_perseguir{
 
 		//ativando o larm
 		if (ativar_alarm == false){
-			alarm[2] = 25;
+			alarm[2] = 12.5;
 			ativar_alarm2 = false;
 			ativar_alarm = true;
 			}

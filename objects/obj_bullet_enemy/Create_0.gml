@@ -1,6 +1,8 @@
 event_inherited()
-bullet_speed =1 ;
+bullet_speed =1;
 range = 200;
+
+depth = +1;
 
 function bullet_die(){
 speed = 0;

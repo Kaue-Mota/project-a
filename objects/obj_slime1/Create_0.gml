@@ -38,4 +38,7 @@ debri_sprite = spr_debri_slime;
 debri_amount = 3;
 debri_color = #C32454;
 
+//hp
+hp_max = 5;
+hp = hp_max;
 

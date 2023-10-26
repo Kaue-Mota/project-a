@@ -32,7 +32,6 @@ ativar_alarm = false;
 ativar_alarm2 = false;
 alarm[0] = room_speed;
 z = 0;
-forca_pulo = -10;
 velz = 0;
 grav = .8;
 
