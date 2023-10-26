@@ -37,8 +37,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slime1",
-    "path": "sprites/spr_slime1/spr_slime1.yy",
+    "name": "spr_slime2",
+    "path": "sprites/spr_slime2/spr_slime2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

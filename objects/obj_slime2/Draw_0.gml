@@ -2,7 +2,7 @@ event_inherited()
 
 
 //sombra
-draw_sprite(spr_slime_shadow,0,x,y+5)
+draw_sprite(spr_slime_shadow1,0,x,bbox_bottom)
 
 //mudar lado da sprite
 if dest_x < x{

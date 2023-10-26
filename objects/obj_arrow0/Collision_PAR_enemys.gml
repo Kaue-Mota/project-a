@@ -20,7 +20,7 @@ debris = false;
 	}
 	
 	//particles debris
-	repeat(20){
+	repeat(debri_amount){
 	
 			with (instance_create_layer(x,y,"Debris",obj_particle_hit)){
 	debris = true;

@@ -1,3 +1,5 @@
+event_inherited();
+
 
 if keyboard_check_pressed(ord("G")){
 	instance_create_layer(x,y, "Bows",obj_bow0_pickup)

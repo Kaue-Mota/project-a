@@ -1,5 +1,5 @@
 event_inherited()
-damage = 5;
+damage = irandom_range(3,6);
 range = 360;
 owner_id = noone;
 knockback_time = 10;
