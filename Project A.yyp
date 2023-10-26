@@ -69,6 +69,7 @@
     {"id":{"name":"spr_arrow0","path":"sprites/spr_arrow0/spr_arrow0.yy",},},
     {"id":{"name":"spr_spider_web_bullet","path":"sprites/spr_spider_web_bullet/spr_spider_web_bullet.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"obj_slime3","path":"objects/obj_slime3/obj_slime3.yy",},},
     {"id":{"name":"PAR_guns","path":"objects/PAR_guns/PAR_guns.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"spr_bow0","path":"sprites/spr_bow0/spr_bow0.yy",},},
