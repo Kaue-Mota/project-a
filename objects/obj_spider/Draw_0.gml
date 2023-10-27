@@ -1,4 +1,4 @@
-draw_sprite_ext(sprite_index, image_index, x, y, x_scale, y_scale, rot, c_white, 1);
+draw_sprite_ext(sprite_index, image_index, x, y,image_xscale * x_scale, y_scale, rot, c_white, 1);
 
 
 

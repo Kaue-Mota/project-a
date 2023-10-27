@@ -6,7 +6,7 @@ event_inherited()
 //anim
 s_idle = spr_slime1;
 s_walk = spr_slime1;
-s_hurt = spr_slime1;
+s_hurt = spr_slime2_corpse;
 s_attack = spr_slime1;
 s_dead = spr_slime_explode;
 

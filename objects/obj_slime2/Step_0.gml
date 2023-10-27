@@ -3,6 +3,9 @@ script_execute(estado);
 //facing
 check_facing()
 
+//hurt animation
+show_hurt()
+
 //adicionar graviddade caso esteja subindo
 if (velz != 0) velz += grav;
 
@@ -64,6 +67,6 @@ if estado == slime_perseguir{
 	}
 	
 	if hp == 0{
-	instance_destroy();
+	instance_change(obj_slime2_corpse,0);
 	}
 

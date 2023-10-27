@@ -1,0 +1,1 @@
+calc_entity_move();

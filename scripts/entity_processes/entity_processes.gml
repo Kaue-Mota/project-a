@@ -48,8 +48,8 @@ function is_dead(){
 }
 
 function check_if_stopped(){
-	//if hsp < 0.1 hsp = 0;
-	//if vsp < 0.1 vsp = 0;
+	if hsp < 0.1 hsp = 0;
+	if vsp < 0.1 vsp = 0;
 }
 
 
