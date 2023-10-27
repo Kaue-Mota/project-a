@@ -1,3 +1,49 @@
+function collision(){
+		
+var _tx = x;
+var _ty = y;
+
+x = xprevious;
+y = yprevious;
+
+var _disx = abs(_tx - x);
+var _disy = abs(_ty - y);
+
+repeat(_disx){
+	if !place_meeting(x + sign(_tx - x), y, par_collisions) x += sign(_tx - x);
+}
+repeat(_disy){
+	if !place_meeting(x, y + sign(_ty - y), par_collisions) y += sign(_ty - y);
+}
+
+}
+
+function calc_entity_move(){
+	collision()
+	///@desc moves enemy and apply drag
+	//apply movement
+	x += hsp;
+	y += vsp;
+	
+	//slowdown
+	hsp *= global.drag;
+	vsp *= global.drag;
+	
+
+	collision()
+}
+
+function check_facing(){
+	collision()
+	var target_direction = direction
+if (target_direction < 90 || target_direction > 270){ //facing right
+    image_xscale = 1;
+}
+else{
+    image_xscale = -1;
+}
+}
+
 function slime_colisao(){
 	
 var _tx = x;

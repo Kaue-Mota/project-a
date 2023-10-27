@@ -11,7 +11,7 @@ enum states{
 
 //path
 global.mp_grid = 0;
-global.drag = .5;
+global.drag = .8;
 
 //surface
 debris_surf = surface_create(room_width,room_height);

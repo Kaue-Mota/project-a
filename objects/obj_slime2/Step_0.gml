@@ -4,6 +4,7 @@ script_execute(estado);
 check_facing()
 
 //hurt animation
+enemy_anim()
 show_hurt()
 
 //adicionar graviddade caso esteja subindo
@@ -67,6 +68,6 @@ if estado == slime_perseguir{
 	}
 	
 	if hp == 0{
-	instance_change(obj_slime2_corpse,0);
+	instance_change(obj_slime2_corpse,1);
 	}
 

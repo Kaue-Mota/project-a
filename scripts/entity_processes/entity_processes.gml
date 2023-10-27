@@ -29,7 +29,7 @@ function is_dead(){
 	///@desc  check if instance running this is dead?
 	if state != states.DEAD {
 			if hp <= 0 {
-				instance_destroy();
+				
 				hp = 0;
 				image_index = 0;
 				//set death sound

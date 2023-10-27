@@ -4,9 +4,9 @@ event_inherited()
 
 
 //anim
-s_idle = spr_slime1;
-s_walk = spr_slime1;
-s_hurt = spr_slime2_corpse;
+s_idle = spr_slime2;
+s_walk = spr_slime2;
+s_hurt = spr_slime2_hurt;
 s_attack = spr_slime1;
 s_dead = spr_slime_explode;
 
@@ -38,7 +38,7 @@ grav = .8;
 //debris
 debri_sprite = spr_debri_slime;
 debri_amount = 30
-debri_color = #239063;
+debri_color = #E83B3B;
 
 //balas
 bullet_speed = 1;
