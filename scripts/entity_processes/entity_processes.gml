@@ -57,7 +57,7 @@ function show_healthbar(){
 	///@desc show healthbar above entities head
 	
 	if hp != hp_max and hp > 0{
-		follow_hp = lerp (follow_hp, hp, .05);
+		follow_hp = lerp (follow_hp, hp, .01);
 		draw_sprite( spr_health_bg,0,x,bbox_bottom+15)
 		draw_healthbar(x-7,bbox_bottom+2,x+7,bbox_bottom+5, follow_hp/hp_max*100, c_black, c_white, c_white, 0, 0, 0);
 		draw_healthbar(x-7,bbox_bottom+2,x+7,bbox_bottom+5, hp/hp_max*100, c_black, #C70039, #C70039, 0, 0, 0);

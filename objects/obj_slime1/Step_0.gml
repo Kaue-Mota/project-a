@@ -72,7 +72,7 @@ if estado == slime_perseguir{
 		}
 			
 	}
-	
+	//die
 	if hp == 0{
 	instance_change(obj_slime1_corpse,1);
 	}

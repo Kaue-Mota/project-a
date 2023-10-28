@@ -37,3 +37,13 @@ if((z + velz) > 0){
 }
 //velz+=grav
 	z += velz;
+
+// facing
+
+var target_direction = direction
+if (target_direction < 90 || target_direction > 270){ //facing right
+    image_xscale = 1;
+}
+else{
+    image_xscale = -1;
+}

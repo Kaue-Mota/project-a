@@ -1,0 +1,1 @@
+instance_create_layer(mouseX, mouseY,"Enemys", obj_slime1);

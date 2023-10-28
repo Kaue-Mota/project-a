@@ -1,3 +1,5 @@
+obj_camera.shake_value = 1;
+
 repeat (10){
 
 var _inst = instance_create_depth(x+random_range(-5,5), y+random_range(-5,5),depth,obj_dust_corpse);

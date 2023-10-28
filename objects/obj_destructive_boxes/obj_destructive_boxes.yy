@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_minitree",
+  "name": "obj_destructive_boxes",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"PAR_bullets","path":"objects/PAR_bullets/PAR_bullets.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_minitree",
-    "path": "sprites/spr_minitree/spr_minitree.yy",
+    "name": "spr_box_barrel",
+    "path": "sprites/spr_box_barrel/spr_box_barrel.yy",
   },
   "spriteMaskId": null,
   "visible": true,

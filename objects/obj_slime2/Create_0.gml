@@ -23,8 +23,7 @@ dis_seguir = 2000;
 dis_parardeseguir = 600;
 }
 //hp
-hp_max = 30;
-hp = hp_max;
+
 
 //pular
 pular= false;
