@@ -1,6 +1,6 @@
 kb_amount = 2;
 z = 0;
-velz = choose(-4,-4,-5,-6)
+velz = -5
 grav = .8;
 
 image_angle = random(360);

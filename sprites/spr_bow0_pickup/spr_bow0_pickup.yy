@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_bow0_pickup",
   "bbox_bottom": 121,
-  "bbox_left": 37,
+  "bbox_left": 4,
   "bbox_right": 114,
   "bbox_top": 0,
   "bboxMode": 0,

@@ -1,18 +1,36 @@
-var _kb_direction = random(360)
+speed *= fric
+
+image_angle = lerp(image_angle, 0, 1)
+switch(debris){
+	case false:
+	depth = +1;
+	if (image_index >= image_number -1){
+		instance_destroy()
+}
+break;
+case true:
+if place_meeting(x,y,obj_wall){
+		instance_destroy()
+	}
+	if(speed<=0){
+		surface_set_target(obj_gamecontroller.debris_surf)
+		draw_self()
+		surface_reset_target()
+		instance_destroy()
+		break;
+	}
 
 
-if (kb_amount > 0){
-	x += lengthdir_x(kb_amount, _kb_direction);
-	y += lengthdir_y(kb_amount, _kb_direction);
-	
-	kb_amount -= 1/10;
+
+
 
 }
 
-if kb_amount == 0{
-	
-image_alpha -=.005
-}
+
+
+
+
+
 
 //adicionar graviddade caso esteja subindo
 if (velz != 0) velz += grav;

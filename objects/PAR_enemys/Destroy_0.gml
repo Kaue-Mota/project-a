@@ -11,3 +11,12 @@ var _inst = instance_create_depth(x+random_range(-5,5), y+random_range(-5,5),dep
 	_inst.direction = direction+random_range(-30,30);
 	}
 	
+		// kill sprite
+	with (instance_create_depth(x,y,0,obj_kill_sprite)){
+	sprite_index = spr_kill_sprite
+	image_speed = 1/2
+	x_scale= .8
+	y_scale = .8
+}
+
+

@@ -1,5 +1,16 @@
-repeat (irandom_range(5,15)){
-instance_create_layer(x,y,"Debris",obj_destructive_box_debris);
+	//particles debris
+	repeat(10){
+	
+			with (instance_create_layer(x,y,"Debris",obj_destructive_box_debris)){
+	debris = true;
+				
+				
+				image_speed = 0;
+				fric = .8
+				var _dir =choose(180,0);
+				motion_add(_dir+random_range(-20,20), random_range(-2,-6));
+	}
+
 }
 
 repeat (5){
@@ -7,8 +18,8 @@ repeat (5){
 var _dir = point_direction(x,y,obj_player.x,obj_player.y)+180
 var _inst = instance_create_depth(x+random_range(-5,5), y+random_range(-5,5),depth-2,obj_dust_corpse);
 	_inst.sprite_index = spr_hitparticle
-	_inst.image_xscale = .8;
-	_inst.image_yscale = .8;
+	_inst.image_xscale = .6;
+	_inst.image_yscale = .6;
 	_inst.image_speed = random_range(1/10,1/6)
 	_inst.speed = random (.5)
 	_inst.direction = _dir+random_range(-30,30);
@@ -34,7 +45,7 @@ repeat(10){
 		
 			with (instance_create_depth(x,y+5,depth+2,obj_particle_hit)){
 debris = false;
-					image_blend = #4D2B32;
+				image_blend = #4D2B32;
                 depth = -2;
 				image_alpha = .5;
 				image_speed = .4;

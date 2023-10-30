@@ -11,10 +11,7 @@
     "name": "enemy_bullets",
     "path": "folders/3.Objects/Enemys/enemy_bullets.yy",
   },
-  "parentObjectId": {
-    "name": "PAR_depth_objects",
-    "path": "objects/PAR_depth_objects/PAR_depth_objects.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

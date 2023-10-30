@@ -25,8 +25,8 @@ escala_y = lerp(escala_y, scale, .3);
 	
 		 obj_camera.shake_value = .8;
 		obj_player.bow_dis = 3;
-		  escala_y = .5;
-				escala_x = 3;
+		  escala_y = .8;
+				escala_x = 1.5;
 		with (_inst) {
 			speed = other.arrow_speed;
 			direction = _dir + choose(3, 0, -3);

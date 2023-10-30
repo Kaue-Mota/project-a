@@ -2,7 +2,7 @@ event_inherited()
 bullet_speed =1;
 range = 200;
 
-depth = +1;
+depth = +2;
 
 function bullet_die(){
 speed = 0;

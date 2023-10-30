@@ -1,7 +1,11 @@
 event_inherited();
 //HEALTH
-hp_max = 20;
-hp = hp_max;
+global.hp_max = 10;
+global.hp = global.hp_max;
+global.follow_hp = global.hp;
+
+//arma atual
+global.arma_atual = spr_nothing;
 
 
 // Create Event
@@ -20,7 +24,7 @@ instance_create_layer(x,y,"Player",obj_camera)
 //bow
 aim_dir = 0;
 bow_dis = 1;
-bow_dis_max = 10;
+bow_dis_max = 7;
 my_bow = obj_bow0
 
 rot = 0;
