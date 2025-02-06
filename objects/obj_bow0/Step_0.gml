@@ -20,7 +20,9 @@ escala_y = lerp(escala_y, scale, .3);
 		
 		var _dir = point_direction(x,y, mouse_x, mouse_y);
 		
-		var _inst = instance_create_layer(x,y, "Projectiles", obj_arrow0);
+	var _inst = instance_create_layer(x,y, "Projectiles", obj_arrow0);
+	alarm [1] = second_arrow;
+		alarm [2] = third_arrow;
 		
 	
 		 obj_camera.shake_value = .8;
@@ -33,7 +35,11 @@ escala_y = lerp(escala_y, scale, .3);
 			image_angle = direction;
 			owner_id = other;
 			}
+			
+			
 		}
+		
+		
 	
 	
 	

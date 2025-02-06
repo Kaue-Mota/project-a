@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "enemy_bullets_directions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "2.Scripts",
-    "path": "folders/2.Scripts.yy",
+  "$GMScript":"v1",
+  "%Name":"enemy_bullets_directions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"enemy_bullets_directions",
+  "parent":{
+    "name":"2.Scripts",
+    "path":"folders/2.Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

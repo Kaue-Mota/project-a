@@ -73,8 +73,9 @@ vsp = 0;
 
 function bow_processes(){
 	// bow dir
-if instance_exists(obj_bow0){
+if instance_exists(obj_player.my_bow){
 aim_dir = point_direction(x,y,mouse_x, mouse_y);
+
 my_bow.image_angle = aim_dir;
 }
 
@@ -84,18 +85,14 @@ bow_dis = lerp(bow_dis, bow_dis_max, .1);
 }
 	
 function player_anim(){
-	//virar pelo mouse
-	var target_direction = point_direction(x,y, mouse_x, mouse_y);
-if (target_direction < 90 || target_direction > 270){ //facing right
-    image_xscale = scale;
-}
-else{
-    image_xscale = -scale;
-}
+	var _aim_side = sign(mouseX - x)
+	if(_aim_side != 0) image_xscale = _aim_side;
 		// animação 
 
-if _h_input<0 {image_xscale = -scale}
-if _h_input>0 {image_xscale = scale}
+if _h_input != 0{
+	if (_aim_side != sign(_h_input)) sprite_index = spr_player_rR;
+}
+
 
 if _h_input = 0 and _v_input = 0 {sprite_index = spr_player}
 }

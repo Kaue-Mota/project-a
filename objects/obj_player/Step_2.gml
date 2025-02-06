@@ -1,4 +1,4 @@
-if instance_exists(obj_bow0){
+if instance_exists(my_bow){
 var  _depth = (aim_dir > 20 and aim_dir <180);
 
 my_bow.depth = depth + _depth;

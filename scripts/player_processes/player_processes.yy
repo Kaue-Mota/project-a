@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "player_processes",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "2.Scripts",
-    "path": "folders/2.Scripts.yy",
+  "$GMScript":"v1",
+  "%Name":"player_processes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_processes",
+  "parent":{
+    "name":"2.Scripts",
+    "path":"folders/2.Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

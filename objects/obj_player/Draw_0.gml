@@ -4,4 +4,4 @@ draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, 
 event_inherited()
 
 	
-		draw_text(x,y+20,hsp)
+	
